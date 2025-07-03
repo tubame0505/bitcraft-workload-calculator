@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚡ Bitcraft Workload Calculator
 
-## Getting Started
+A sleek and efficient web application built with Next.js, React, and Tailwind CSS to help you manage your in-game or real-life "stamina" and calculate optimal workloads. Perfect for games with stamina systems, fitness tracking, or any scenario where resource management over time is key.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+  * **Customizable Parameters**: Adjust initial stamina, action cost (tier), workload, recovery rate, cycle time, and tool power to fit your specific needs.
+  * **Dynamic Work Time Calculation**: Instantly see the total time required to complete your desired workload, factoring in stamina consumption and recovery.
+  * **Interactive Stamina Depletion Timer**: A dedicated timer shows you exactly how long until your stamina runs out, with a real-time countdown.
+  * **Start/Stop/Reset Controls**: Full manual control over the stamina depletion timer – no automatic starts\!
+  * **0.1 Second Precision**: Monitor time with high accuracy for precise planning.
+  * **Reverse Workload Calculation**: Need to work for a specific duration (e.g., 30 or 60 minutes)? The calculator can tell you the exact workload you can complete within that time.
+  * **Shareable URLs**: All your settings are reflected in the URL, making it easy to share your configurations with others.
+  * **Responsive Design**: A clean and modern UI that works great on both desktop and mobile devices.
+  * **Robust Input Handling**: Safely handles empty or invalid numerical inputs, preventing crashes and using sensible default values.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚙️ How to Use
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1.  **Adjust Parameters**: Modify the values in the "Parameters" section (Initial Stamina, Tier, Required Workload, etc.) to match your scenario.
+2.  **View Results**: The "Total Work Time" will automatically update based on your inputs.
+3.  **Use the Timer**:
+      * The "Stamina Depletion Timer" shows the time until your stamina runs out based on current parameters.
+      * Click **"Start Timer"** to begin the countdown.
+      * Click **"Stop Timer"** to pause it.
+      * Click **"Reset Timer"** to set it back to the calculated depletion time.
+4.  **Reverse Calculate**: Use the "30 Minutes" or "60 Minutes" buttons to see how much workload you can complete within those specific timeframes.
+5.  **Share**: Copy the URL from your browser's address bar or use the "Copy URL" button to share your current settings with others.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Technologies Used
 
-## Learn More
+  * [Next.js](https://nextjs.org/) - React framework for production
+  * [React](https://react.dev/) - JavaScript library for building user interfaces
+  * [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
+  * [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript superset
 
-To learn more about Next.js, take a look at the following resources:
+## 🤝 Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Feel free to fork this repository, open issues, or submit pull requests. Any contributions are welcome\!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+-----
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+-----
